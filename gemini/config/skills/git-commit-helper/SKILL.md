@@ -39,9 +39,18 @@ Map the current harness (the application running the agent) and the model indepe
 -   **Line 2**: Must be blank.
 -   **Body**: 
     -   Use bullet points (`* `) to highlight major changes.
+    -   Do not put blank lines between bullet points; keep the list compact.
     -   Each line must not exceed 75 characters.
     -   Focus on **why** the change was made and any high-level "how" that isn't immediately obvious from the code.
     -   Keep it professional and concise.
+
+Bad example (blank lines between bullets):
+
+```text
+* Explain why the change was needed.
+
+* Summarize the high-level implementation.
+```
 
 ## Examples
 
