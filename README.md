@@ -15,7 +15,7 @@ for just one tool, pass `gemini` or `codex`:
 bash /path/to/checkout/install.sh codex
 ```
 
-Skills are symlinked from `gemini/config/skills` into
+Skills are symlinked from `skills` into
 `~/.gemini/config/skills` for Gemini and `~/.agents/skills` for Codex, following
 [Codex's user skill discovery convention](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills).
 Keep the checkout in place; rerun the installer after moving it to update the

@@ -2,7 +2,7 @@
 set -euo pipefail
 
 script_dir="$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
-skills_dir="$script_dir/gemini/config/skills"
+skills_dir="$script_dir/skills"
 
 usage() {
     printf 'Usage: %s [all|gemini|codex]\n' "$0"
